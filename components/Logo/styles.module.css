@@ -1,0 +1,6 @@
+.logo {
+  top: 3%;
+  left: 3.5%;
+  cursor: pointer;
+  z-index: 100;
+}
