@@ -30,7 +30,8 @@ export default function Simple({ id }) {
 	return (
 		<MenuContextWrapper>
 			<Navbar />
-			<ProductPage id={id} />
+			<p>Product ID:{id}</p>
+			{/* <ProductPage id={id} /> */}
 			<Footer />
 		</MenuContextWrapper>
 	);

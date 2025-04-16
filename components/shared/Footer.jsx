@@ -73,7 +73,8 @@ export default function Footer() {
 						<Logo />
 
 						<Text fontSize={"sm"}>
-							&#169; 2022 Madre. All rights reserved
+							&#169; {new Date().getFullYear()} Madre. All rights
+							reserved
 						</Text>
 						<Stack direction={"row"} spacing={6}>
 							{SOCIAL_MEDIA.map((social) => {
