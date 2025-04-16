@@ -98,7 +98,7 @@ const RegisterPage = () => {
 							objectFit={"cover"}
 							filter={`blur(1px) brightness(70%)`}
 							src={
-								"https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1352&q=80"
+								"/bg.jpg"
 							}
 						/>
 					</Flex>
@@ -157,7 +157,7 @@ const RegisterPage = () => {
 											setToStorage(
 												"resendVerificationTimeout",
 												Math.ceil(Date.now() / 1000) +
-													60
+												60
 											);
 
 											toast({

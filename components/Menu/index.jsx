@@ -66,15 +66,16 @@ const Menu = () => {
 			</Flex>
 			<Flex direction={{ base: "column", md: "row" }}>
 				{isMobile ? (
-					<MobileMenuOption
-						sliderValue={sliderValue}
-						setSliderValue={setSliderValue}
-						showCategories={showCategories}
-						showCusines={showCusines}
-						setShowCategories={setShowCategories}
-						setShowCusines={setShowCusines}
-					/>
+					<></>
 				) : (
+					// <MobileMenuOption
+					// 	sliderValue={sliderValue}
+					// 	setSliderValue={setSliderValue}
+					// 	showCategories={showCategories}
+					// 	showCusines={showCusines}
+					// 	setShowCategories={setShowCategories}
+					// 	setShowCusines={setShowCusines}
+					// />
 					<Box
 						flexDirection="column"
 						display={{
